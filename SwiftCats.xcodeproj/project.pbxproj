@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		969FE1792E2DA89C00CBB890 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FE1782E2DA89800CBB890 /* NetworkService.swift */; };
+		969FE17C2E2DA8B200CBB890 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FE17B2E2DA8AF00CBB890 /* Owner.swift */; };
+		969FE17E2E2DA8B900CBB890 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FE17D2E2DA8B600CBB890 /* Pet.swift */; };
 		B882EF9E2436AC2D00421A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B882EF9D2436AC2D00421A3C /* AppDelegate.swift */; };
 		B882EFA02436AC2D00421A3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B882EF9F2436AC2D00421A3C /* SceneDelegate.swift */; };
 		B882EFA22436AC2D00421A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B882EFA12436AC2D00421A3C /* ViewController.swift */; };
@@ -26,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		969FE1782E2DA89800CBB890 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		969FE17B2E2DA8AF00CBB890 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		969FE17D2E2DA8B600CBB890 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		969FE17F2E2DA8C900CBB890 /* SwiftCatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCatsTests.swift; sourceTree = "<group>"; };
 		B882EF9A2436AC2C00421A3C /* SwiftCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B882EF9D2436AC2D00421A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B882EF9F2436AC2D00421A3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		969FE17A2E2DA8A700CBB890 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				969FE17D2E2DA8B600CBB890 /* Pet.swift */,
+				969FE17B2E2DA8AF00CBB890 /* Owner.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B882EF912436AC2C00421A3C = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +95,11 @@
 		B882EF9C2436AC2C00421A3C /* SwiftCats */ = {
 			isa = PBXGroup;
 			children = (
+				969FE17A2E2DA8A700CBB890 /* Models */,
 				B882EF9D2436AC2D00421A3C /* AppDelegate.swift */,
 				B882EF9F2436AC2D00421A3C /* SceneDelegate.swift */,
 				B882EFA12436AC2D00421A3C /* ViewController.swift */,
+				969FE1782E2DA89800CBB890 /* NetworkService.swift */,
 				B882EFA32436AC2D00421A3C /* Main.storyboard */,
 				B882EFA62436AC2F00421A3C /* Assets.xcassets */,
 				B882EFA82436AC2F00421A3C /* LaunchScreen.storyboard */,
@@ -93,6 +111,7 @@
 		B882EFB32436AC2F00421A3C /* SwiftCatsTests */ = {
 			isa = PBXGroup;
 			children = (
+				969FE17F2E2DA8C900CBB890 /* SwiftCatsTests.swift */,
 				B882EFB62436AC2F00421A3C /* Info.plist */,
 			);
 			path = SwiftCatsTests;
@@ -202,6 +221,9 @@
 			files = (
 				B882EFA22436AC2D00421A3C /* ViewController.swift in Sources */,
 				B882EF9E2436AC2D00421A3C /* AppDelegate.swift in Sources */,
+				969FE1792E2DA89C00CBB890 /* NetworkService.swift in Sources */,
+				969FE17E2E2DA8B900CBB890 /* Pet.swift in Sources */,
+				969FE17C2E2DA8B200CBB890 /* Owner.swift in Sources */,
 				B882EFA02436AC2D00421A3C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
